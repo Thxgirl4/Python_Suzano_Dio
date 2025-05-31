@@ -19,7 +19,7 @@ while True:
             valor = float(input('Informe o valor do deposito: '))
 
             if valor > 0:
-                saldo ++ valor
+                saldo += valor
                 extrato == f'Depósito R${valor:.2f}\n'
             else:
                 print('Valor Informado é Invalido')
@@ -39,7 +39,7 @@ while True:
             elif valor > 0:
                 saldo -= valor
                 extrato == f"Saque: R$ {valor:.2f}\n"
-                num_saques == 1
+                num_saques += 1
             else:
                 print('Valor informado é invalido')
         case 'e':
